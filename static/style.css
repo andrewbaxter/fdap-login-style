@@ -1,8 +1,7 @@
 :root {
   --c-error: #aa0a0a;
-  --c-line: rgba(0, 0, 0, 0.3);
-  --c-line-hover: black;
-  --c-text: hsl(0 0 30%);
+  --c-line: rgba(219, 219, 219, 0.7);
+  --c-foreground: hsl(0, 0%, 100%);
   --s-form-radius: 0.15cm;
   --s-pad: 0.5cm;
 }
@@ -13,7 +12,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
   font-size: 12pt;
-  color: var(--c-border1);
+  color: var(--c-foreground);
 }
 
 html {
@@ -48,7 +47,7 @@ form {
     right: calc(-2 * var(--s-form-radius));
     z-index: -1;
     border-radius: var(--s-form-radius);
-    backdrop-filter: saturate(0.7) blur(0.4cm) contrast(0.8) brightness(2);
+    backdrop-filter: contrast(0.8) brightness(1.2) blur(0.2cm);
   }
 
   & > div.error {
@@ -81,7 +80,7 @@ form {
     border: 0.05cm solid var(--c-line);
 
     &:hover {
-      border-color: var(--c-line-hover);
+      border-color: var(--c-foreground);
     }
   }
 }
