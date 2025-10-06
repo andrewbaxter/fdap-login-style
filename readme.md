@@ -2,6 +2,7 @@ This is an example style for [fdap-oidc](https://github.com/andrewbaxter/fdap-oi
 
 Set [./static](./static) as `"static_dir"` in your `fdap-oidc` config to use it.
 
-It should decently with most background images, so feel free to replace the image as you see fit.
+# Credits
 
-If any designers have an urge to make this a more stylish default please do.
+- `light.jpg`: `pawel-czerwinski-ruJm3dBXCqw-unsplash`
+- `dark.jpg`: `michael-d-rnKqWvO80Y4-unsplash`
